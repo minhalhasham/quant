@@ -9,7 +9,7 @@ time=np.arange(10**-4,1,10**-4)
 
 emp=[]
 for i in range(1000): 
-    emp.append(np.random.choice(power_law(time,1.5)/max(power_law(time,1.5))))
+    emp.append(np.random.choice(power_law(time,1.5))
 
 
 
